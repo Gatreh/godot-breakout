@@ -1,0 +1,176 @@
+[gd_scene load_steps=7 format=3 uid="uid://sl4j3vq1a8ww"]
+
+[ext_resource type="PackedScene" uid="uid://ch62ees8fu0l4" path="res://Player.tscn" id="1_kl220"]
+[ext_resource type="Script" path="res://Main.gd" id="1_l8qcn"]
+[ext_resource type="PackedScene" uid="uid://isfigflg8blr" path="res://Ball.tscn" id="2_1tnx6"]
+[ext_resource type="PackedScene" uid="uid://c8bbuci871k5q" path="res://Brick.tscn" id="3_5ghpp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6n8nw"]
+size = Vector2(56, 96)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jab7q"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_l8qcn")
+
+[node name="Score" type="Label" parent="."]
+offset_left = 1087.0
+offset_top = 22.0
+offset_right = 1127.0
+offset_bottom = 45.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Player" parent="." instance=ExtResource("1_kl220")]
+position = Vector2(580, 584)
+
+[node name="Ball" parent="." instance=ExtResource("2_1tnx6")]
+position = Vector2(576, 428)
+
+[node name="Brick21" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(1094, 212)
+
+[node name="Brick22" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(1094, 166)
+
+[node name="Brick23" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(1094, 304)
+
+[node name="Brick24" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(1094, 258)
+
+[node name="Brick25" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(979, 212)
+
+[node name="Brick26" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(979, 166)
+
+[node name="Brick27" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(979, 304)
+
+[node name="Brick28" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(979, 258)
+
+[node name="Brick29" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(864, 212)
+
+[node name="Brick30" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(864, 166)
+
+[node name="Brick31" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(864, 304)
+
+[node name="Brick32" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(864, 258)
+
+[node name="Brick33" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(634, 212)
+
+[node name="Brick34" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(634, 166)
+
+[node name="Brick35" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(634, 304)
+
+[node name="Brick36" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(634, 258)
+
+[node name="Brick37" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(749, 211)
+
+[node name="Brick38" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(749, 165)
+
+[node name="Brick39" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(749, 304)
+
+[node name="Brick40" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(749, 257)
+
+[node name="Brick9" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(519, 212)
+
+[node name="Brick10" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(519, 166)
+
+[node name="Brick11" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(519, 304)
+
+[node name="Brick12" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(519, 258)
+
+[node name="Brick13" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(404, 212)
+
+[node name="Brick14" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(404, 166)
+
+[node name="Brick15" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(404, 304)
+
+[node name="Brick16" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(404, 258)
+
+[node name="Brick17" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(289, 212)
+
+[node name="Brick18" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(289, 166)
+
+[node name="Brick19" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(289, 304)
+
+[node name="Brick20" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(289, 258)
+
+[node name="Brick5" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(59, 212)
+
+[node name="Brick6" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(59, 166)
+
+[node name="Brick7" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(59, 304)
+
+[node name="Brick8" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(59, 258)
+
+[node name="Brick3" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(174, 212)
+
+[node name="Brick4" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(174, 166)
+
+[node name="Brick" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(174, 304)
+
+[node name="Brick2" parent="." groups=["bricks"] instance=ExtResource("3_5ghpp")]
+position = Vector2(174, 258)
+
+[node name="Area2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-11, 325)
+scale = Vector2(0.4, 7)
+shape = SubResource("RectangleShape2D_6n8nw")
+
+[node name="Area2D2" type="StaticBody2D" parent="."]
+position = Vector2(1174, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(-11, 325)
+scale = Vector2(0.4, 7)
+shape = SubResource("RectangleShape2D_6n8nw")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="."]
+position = Vector2(575, -10)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2"]
+scale = Vector2(60, 1)
+shape = SubResource("RectangleShape2D_jab7q")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(575, 660)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+scale = Vector2(60, 1)
+shape = SubResource("RectangleShape2D_jab7q")
