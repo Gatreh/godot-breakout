@@ -6,13 +6,14 @@ var direction = Vector2.ZERO
 
 func _ready():
 	randomize()
-	start_ball()
+	StartBall()
 
 func _integrate_forces(state):
 	var speed = linear_velocity.length()
 	if speed < BALL_SPEED:
 		linear_velocity = linear_velocity.normalized() * BALL_SPEED
 
-func start_ball():
+func StartBall():
 	direction = Vector2(randf_range(-1, 1), 1).normalized()
 	linear_velocity = direction * BALL_SPEED
+
